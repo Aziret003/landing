@@ -1,0 +1,26 @@
+.header {
+  height: 900px;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+.header__content-logo {
+  color: rgb(248, 244, 244);
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header__content__nav {
+  margin-left: auto;
+  margin-right: 40px;
+}
+.header__content-link {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700px;
+  letter-spacing: 2.4px;
+  text-decoration: none;
+  margin: 0 10px;
+}/*# sourceMappingURL=header.css.map */

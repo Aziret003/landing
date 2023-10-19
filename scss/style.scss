@@ -1,0 +1,23 @@
+@import "./components/normalize.scss";
+@import "./components/vars.scss";
+@import "./components/footer.scss";
+@import "./components/header.scss";
+@import "./components/mixins.scss";
+@import "./components/hero.scss";
+@import "./components/btn.scss";
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1240px;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 100%;
+}
+@media screen and (max-width: 600px) {
+    .header__content__nav {
+        display: none;
+    }
+}
